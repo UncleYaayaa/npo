@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1: #FFFBFA;
+    --color2: #008077;
+    --color3: #E9A12F;
+    --color4: #E5A966;
+    --color5: #C8793A;
+    --color2: #003a36;
+}
+
+html{
+    background-color: var(--color1);
+    color: var(--color5);
+}
+
+a{
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--color2);
+    padding: 5px;
+}
+
+a:hover{
+    color: var(--color6);
+}
